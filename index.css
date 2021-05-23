@@ -1,0 +1,57 @@
+.h1{
+    text-align: center;
+    color: rgb(110, 0, 110);
+    font-family: 'Rajdhani', sans-serif;;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+.p1{
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(5, 0, 5);
+    font-family: 'Rajdhani', sans-serif;;
+    font-weight: bold;
+
+
+    
+}
+.body1{
+    background-color: rgba(230, 224, 224, 0.911);
+    margin-top: 0px
+
+}
+#feeling1{
+    margin-left: 400px;
+    width: 420px;
+    height: 70px;
+    
+
+}
+#submit{
+    margin-left: 200px;
+    width: 120px;
+    height: 70px;
+    border: solid 1px;
+    font-family: 'Rajdhani', sans-serif;;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 20px;
+
+
+    
+   
+}
+#feeling{
+    margin-left: 400px;
+    width: 420px;
+    height: 70px;
+    border-radius: 10px;
+
+
+}#submit:hover{
+    background-color: rgb(110, 0, 110);
+}
+.mybody{
+    border: 20px;
+}

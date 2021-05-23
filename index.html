@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+<script type="text/javascript">
+function checkInput(){
+    var feel=document.getElementById("feeling")
+
+    if(feel.value==""||feel.value==null){
+        alert("Write Something")
+        return(false)
+        
+    }
+    else{
+        alert("Thank You for your response")
+        return (true)
+             
+    }
+}
+</script>
+<img src="akirachix-removebg-preview.png" alt="akirachixlogo">
+
+    </head>
+
+    <body class="body1">
+        <h1 class="h1">REVIEWING  OUR NEW HOME.</h1>
+        <form  name=info method="POST" action="https://api.apispreadsheets.com/data/12809/" onsubmit="return checkInput()">
+            <P class="p1">What would you like us to improve? </P>
+
+            <input  type="text" name="comments" id="feeling" value="">
+       <button type="submit" onclick="checkInput()" id="submit" >SUBMIT</button>
+    </form>
+
+    </body>
+</html>
